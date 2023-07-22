@@ -1,0 +1,33 @@
+/* For tablets */
+@media screen and (max-width: 1023px) {
+    /* Global styles */
+    body {
+      font-size: 14px;
+    }
+  
+    /* Header styles */
+    .header {
+      background-color: #555;
+      color: #fff;
+      padding: 0.5rem;
+    }
+  
+    .header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+  
+    /* Main content styles */
+    .main-content {
+      display: block;
+      padding: 1rem;
+    }
+  
+    .task-list-item,
+    .task-details {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+  
